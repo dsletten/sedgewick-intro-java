@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!-- testng.xml -->
+<!-- Started:            Fri Apr  5 02:53:05 2013 -->
+<suite name="Chapter 1 Test Suite">
+  <test name="Section1_2">
+    <classes>
+      <class name="TestSection1_2"/>
+    </classes>
+  </test>
+</suite>

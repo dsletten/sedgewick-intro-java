@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Chapter_1_Test_Suite">
+              <span class="suite-name border-passed">Chapter 1 Test Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Chapter_1_Test_Suite">
+                    <span>testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Chapter_1_Test_Suite">
+                    <span class="test-stats">13 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Chapter_1_Test_Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Chapter_1_Test_Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Chapter_1_Test_Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Chapter_1_Test_Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Chapter_1_Test_Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">19 methods,   19 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Chapter_1_Test_Suite" class="hide-methods passed suite-Chapter_1_Test_Suite"> (hide)</a> <!-- hide-methods passed suite-Chapter_1_Test_Suite -->
+                      <a href="#" panel-name="suite-Chapter_1_Test_Suite" class="show-methods passed suite-Chapter_1_Test_Suite"> (show)</a> <!-- show-methods passed suite-Chapter_1_Test_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Chapter_1_Test_Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Chapter_1_Test_Suite" title="TestGravity" hash-for-method="testAltitude">testAltitude</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Chapter_1_Test_Suite" title="TestTriangle" hash-for-method="testAreAllPositive">testAreAllPositive</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Chapter_1_Test_Suite" title="TestOrdered" hash-for-method="testAreOrdered">testAreOrdered</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Chapter_1_Test_Suite" title="TestUniformRandom" hash-for-method="testAverage">testAverage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Chapter_1_Test_Suite" title="TestLoan" hash-for-method="testComputeLoan">testComputeLoan</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Chapter_1_Test_Suite" title="TestWindChill" hash-for-method="testComputeWindChill">testComputeWindChill</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Chapter_1_Test_Suite" title="TestDateCheck" hash-for-method="testDateIsInRange">testDateIsInRange</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Chapter_1_Test_Suite" title="TestDayOfWeek" hash-for-method="testDayOfWeek">testDayOfWeek</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Chapter_1_Test_Suite" title="TestDivides" hash-for-method="testDoesDivide">testDoesDivide</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Chapter_1_Test_Suite" title="TestTriangle" hash-for-method="testFailsTriangleInequality">testFailsTriangleInequality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Chapter_1_Test_Suite" title="TestRandomInt" hash-for-method="testGetRandomInt">testGetRandomInt</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Chapter_1_Test_Suite" title="TestDayOfWeek" hash-for-method="testInvalidDay">testInvalidDay</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Chapter_1_Test_Suite" title="TestDayOfWeek" hash-for-method="testInvalidMonth">testInvalidMonth</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Chapter_1_Test_Suite" title="TestWindChill" hash-for-method="testInvalidTemperature">testInvalidTemperature</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Chapter_1_Test_Suite" title="TestWindChill" hash-for-method="testInvalidWindSpeed">testInvalidWindSpeed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Chapter_1_Test_Suite" title="TestDayOfWeek" hash-for-method="testInvalidYear">testInvalidYear</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Chapter_1_Test_Suite" title="TestParametric" hash-for-method="testParameterized">testParameterized</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Chapter_1_Test_Suite" title="TestPolarCoordinates" hash-for-method="testPolarCoordinates">testPolarCoordinates</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Chapter_1_Test_Suite" title="TestUseThree" hash-for-method="testReverseArgs">testReverseArgs</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Chapter_1_Test_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Chapter_1_Test_Suite" class="panel Chapter_1_Test_Suite">
+          <div class="suite-Chapter_1_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestUseThree</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testReverseArgs">
+                  </a> <!-- testReverseArgs -->
+                  <span class="method-name">testReverseArgs</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Chapter_1_Test_Suite-class-passed -->
+          <div class="suite-Chapter_1_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestDayOfWeek</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDayOfWeek">
+                  </a> <!-- testDayOfWeek -->
+                  <span class="method-name">testDayOfWeek</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInvalidDay">
+                  </a> <!-- testInvalidDay -->
+                  <span class="method-name">testInvalidDay</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInvalidMonth">
+                  </a> <!-- testInvalidMonth -->
+                  <span class="method-name">testInvalidMonth</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInvalidYear">
+                  </a> <!-- testInvalidYear -->
+                  <span class="method-name">testInvalidYear</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Chapter_1_Test_Suite-class-passed -->
+          <div class="suite-Chapter_1_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestParametric</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testParameterized">
+                  </a> <!-- testParameterized -->
+                  <span class="method-name">testParameterized</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Chapter_1_Test_Suite-class-passed -->
+          <div class="suite-Chapter_1_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestLoan</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testComputeLoan">
+                  </a> <!-- testComputeLoan -->
+                  <span class="method-name">testComputeLoan</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Chapter_1_Test_Suite-class-passed -->
+          <div class="suite-Chapter_1_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestUniformRandom</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAverage">
+                  </a> <!-- testAverage -->
+                  <span class="method-name">testAverage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Chapter_1_Test_Suite-class-passed -->
+          <div class="suite-Chapter_1_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestTriangle</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAreAllPositive">
+                  </a> <!-- testAreAllPositive -->
+                  <span class="method-name">testAreAllPositive</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFailsTriangleInequality">
+                  </a> <!-- testFailsTriangleInequality -->
+                  <span class="method-name">testFailsTriangleInequality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Chapter_1_Test_Suite-class-passed -->
+          <div class="suite-Chapter_1_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestDivides</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDoesDivide">
+                  </a> <!-- testDoesDivide -->
+                  <span class="method-name">testDoesDivide</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Chapter_1_Test_Suite-class-passed -->
+          <div class="suite-Chapter_1_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestRandomInt</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetRandomInt">
+                  </a> <!-- testGetRandomInt -->
+                  <span class="method-name">testGetRandomInt</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Chapter_1_Test_Suite-class-passed -->
+          <div class="suite-Chapter_1_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestWindChill</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testComputeWindChill">
+                  </a> <!-- testComputeWindChill -->
+                  <span class="method-name">testComputeWindChill</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInvalidTemperature">
+                  </a> <!-- testInvalidTemperature -->
+                  <span class="method-name">testInvalidTemperature</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInvalidWindSpeed">
+                  </a> <!-- testInvalidWindSpeed -->
+                  <span class="method-name">testInvalidWindSpeed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Chapter_1_Test_Suite-class-passed -->
+          <div class="suite-Chapter_1_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestGravity</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAltitude">
+                  </a> <!-- testAltitude -->
+                  <span class="method-name">testAltitude</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Chapter_1_Test_Suite-class-passed -->
+          <div class="suite-Chapter_1_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestDateCheck</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDateIsInRange">
+                  </a> <!-- testDateIsInRange -->
+                  <span class="method-name">testDateIsInRange</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Chapter_1_Test_Suite-class-passed -->
+          <div class="suite-Chapter_1_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestOrdered</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAreOrdered">
+                  </a> <!-- testAreOrdered -->
+                  <span class="method-name">testAreOrdered</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Chapter_1_Test_Suite-class-passed -->
+          <div class="suite-Chapter_1_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestPolarCoordinates</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPolarCoordinates">
+                  </a> <!-- testPolarCoordinates -->
+                  <span class="method-name">testPolarCoordinates</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Chapter_1_Test_Suite-class-passed -->
+        </div> <!-- panel Chapter_1_Test_Suite -->
+        <div panel-name="test-xml-Chapter_1_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/dsletten/java/books/Sedgewick/ch01/testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Chapter 1 Test Suite&quot;&gt;
+  &lt;test name=&quot;UseThree&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestUseThree&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- UseThree --&gt;
+  &lt;test name=&quot;Divides&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestDivides&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Divides --&gt;
+  &lt;test name=&quot;Triangle&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestTriangle&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Triangle --&gt;
+  &lt;test name=&quot;RandomInt&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestRandomInt&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- RandomInt --&gt;
+  &lt;test name=&quot;Parametric&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestParametric&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Parametric --&gt;
+  &lt;test name=&quot;Gravity&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestGravity&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Gravity --&gt;
+  &lt;test name=&quot;DateCheck&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestDateCheck&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- DateCheck --&gt;
+  &lt;test name=&quot;Loan&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestLoan&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Loan --&gt;
+  &lt;test name=&quot;WindChill&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestWindChill&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- WindChill --&gt;
+  &lt;test name=&quot;PolarCoordinates&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestPolarCoordinates&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- PolarCoordinates --&gt;
+  &lt;test name=&quot;Ordered&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestOrdered&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Ordered --&gt;
+  &lt;test name=&quot;DayOfWeek&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestDayOfWeek&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- DayOfWeek --&gt;
+  &lt;test name=&quot;UniformRandom&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestUniformRandom&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- UniformRandom --&gt;
+&lt;/suite&gt; &lt;!-- Chapter 1 Test Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Chapter_1_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Chapter 1 Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">UseThree (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Divides (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Triangle (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">RandomInt (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Parametric (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Gravity (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">DateCheck (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Loan (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">WindChill (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">PolarCoordinates (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Ordered (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">DayOfWeek (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">UniformRandom (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Chapter_1_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Chapter 1 Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Chapter_1_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Chapter 1 Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Chapter_1_Test_Suite');
+function tableData_Chapter_1_Test_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(19);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testComputeLoan')
+data.setCell(0, 2, 'TestLoan')
+data.setCell(0, 3, 13);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testReverseArgs')
+data.setCell(1, 2, 'TestUseThree')
+data.setCell(1, 3, 12);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testGetRandomInt')
+data.setCell(2, 2, 'TestRandomInt')
+data.setCell(2, 3, 8);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testAltitude')
+data.setCell(3, 2, 'TestGravity')
+data.setCell(3, 3, 3);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testDayOfWeek')
+data.setCell(4, 2, 'TestDayOfWeek')
+data.setCell(4, 3, 2);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testDoesDivide')
+data.setCell(5, 2, 'TestDivides')
+data.setCell(5, 3, 1);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testParameterized')
+data.setCell(6, 2, 'TestParametric')
+data.setCell(6, 3, 1);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testDateIsInRange')
+data.setCell(7, 2, 'TestDateCheck')
+data.setCell(7, 3, 1);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testPolarCoordinates')
+data.setCell(8, 2, 'TestPolarCoordinates')
+data.setCell(8, 3, 1);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testAreOrdered')
+data.setCell(9, 2, 'TestOrdered')
+data.setCell(9, 3, 1);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testAverage')
+data.setCell(10, 2, 'TestUniformRandom')
+data.setCell(10, 3, 1);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testAreAllPositive')
+data.setCell(11, 2, 'TestTriangle')
+data.setCell(11, 3, 0);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testFailsTriangleInequality')
+data.setCell(12, 2, 'TestTriangle')
+data.setCell(12, 3, 0);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testInvalidWindSpeed')
+data.setCell(13, 2, 'TestWindChill')
+data.setCell(13, 3, 0);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testInvalidTemperature')
+data.setCell(14, 2, 'TestWindChill')
+data.setCell(14, 3, 0);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testComputeWindChill')
+data.setCell(15, 2, 'TestWindChill')
+data.setCell(15, 3, 0);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testInvalidMonth')
+data.setCell(16, 2, 'TestDayOfWeek')
+data.setCell(16, 3, 0);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testInvalidYear')
+data.setCell(17, 2, 'TestDayOfWeek')
+data.setCell(17, 3, 0);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testInvalidDay')
+data.setCell(18, 2, 'TestDayOfWeek')
+data.setCell(18, 3, 0);
+window.suiteTableData['Chapter_1_Test_Suite']= { tableData: data, tableDiv: 'times-div-Chapter_1_Test_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 44 ms</span>
+              <div id="times-div-Chapter_1_Test_Suite">
+              </div> <!-- times-div-Chapter_1_Test_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Chapter_1_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Chapter 1 Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Chapter_1_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Chapter_1_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestUseThree</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testReverseArgs</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestDivides</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testDoesDivide</span>
+                <span class="method-start">55 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestTriangle</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testAreAllPositive</span>
+                <span class="method-start">61 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testFailsTriangleInequality</span>
+                <span class="method-start">62 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestRandomInt</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testGetRandomInt</span>
+                <span class="method-start">72 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestParametric</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testParameterized</span>
+                <span class="method-start">84 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestGravity</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testAltitude</span>
+                <span class="method-start">88 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestDateCheck</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testDateIsInRange</span>
+                <span class="method-start">98 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestLoan</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testComputeLoan</span>
+                <span class="method-start">104 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestWindChill</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testComputeWindChill</span>
+                <span class="method-start">126 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testInvalidTemperature</span>
+                <span class="method-start">127 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testInvalidWindSpeed</span>
+                <span class="method-start">128 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestPolarCoordinates</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testPolarCoordinates</span>
+                <span class="method-start">159 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestOrdered</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testAreOrdered</span>
+                <span class="method-start">178 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestDayOfWeek</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testDayOfWeek</span>
+                <span class="method-start">184 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testInvalidDay</span>
+                <span class="method-start">187 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testInvalidMonth</span>
+                <span class="method-start">187 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testInvalidYear</span>
+                <span class="method-start">188 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestUniformRandom</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testAverage</span>
+                <span class="method-start">207 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Chapter 1 Test Suite]">
+  <test name="UniformRandom(failed)">
+    <classes>
+      <class name="TestUniformRandom">
+        <methods>
+          <include name="testAverage"/>
+        </methods>
+      </class> <!-- TestUniformRandom -->
+    </classes>
+  </test> <!-- UniformRandom(failed) -->
+</suite> <!-- Failed suite [Chapter 1 Test Suite] -->

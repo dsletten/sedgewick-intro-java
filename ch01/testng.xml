@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!-- testng.xml -->
+<!-- Started:            Wed Nov 14 19:44:52 2012 -->
+<suite name="Chapter 1 Test Suite">
+  <test name="UseThree">
+    <classes>
+      <class name="TestUseThree"/>
+    </classes>
+  </test>
+  <test name="Divides">
+    <classes>
+      <class name="TestDivides"/>
+    </classes>
+  </test>
+  <test name="Triangle">
+    <classes>
+      <class name="TestTriangle"/>
+    </classes>
+  </test>
+  <test name="RandomInt">
+    <classes>
+      <class name="TestRandomInt"/>
+    </classes>
+  </test>
+  <test name="Parametric">
+    <classes>
+      <class name="TestParametric"/>
+    </classes>
+  </test>
+  <test name="Gravity">
+    <classes>
+      <class name="TestGravity"/>
+    </classes>
+  </test>
+  <test name="DateCheck">
+    <classes>
+      <class name="TestDateCheck"/>
+    </classes>
+  </test>
+  <test name="Loan">
+    <classes>
+      <class name="TestLoan"/>
+    </classes>
+  </test>
+  <test name="WindChill">
+    <classes>
+      <class name="TestWindChill"/>
+    </classes>
+  </test>
+  <test name="PolarCoordinates">
+    <classes>
+      <class name="TestPolarCoordinates"/>
+    </classes>
+  </test>
+  <test name="Ordered">
+    <classes>
+      <class name="TestOrdered"/>
+    </classes>
+  </test>
+  <test name="DayOfWeek">
+    <classes>
+      <class name="TestDayOfWeek"/>
+    </classes>
+  </test>
+  <test name="UniformRandom">
+    <classes>
+      <class name="TestUniformRandom"/>
+    </classes>
+  </test>
+</suite>
